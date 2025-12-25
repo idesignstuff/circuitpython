@@ -16,3 +16,5 @@
 
 #define CIRCUITPY_BOARD_I2C         (1)
 #define CIRCUITPY_BOARD_I2C_PIN     {{.scl = &pin_GPIO5, .sda = &pin_GPIO4}}
+
+#define CIRCUITPY_SAVES_PARTITION_SIZE (32 * 1024)
